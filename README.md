@@ -1,55 +1,43 @@
 <p align="center">
-  <img src="https://global.media.stuxedo.com/logo.png" height="100" alt="Stuxedo Logo">
+  <img src="https://global.media.stuxedo.com/v1/logo.png" height="100" alt="Stuxedo Logo">
 </p>
 
-# Maintenance Page
+# Maintenance Page v1
 
-A clean and simple maintenance page template for Stuxedo services.
+*The original green Stuxedo maintenance page, preserved.*
 
-## Overview
+An archived, pinned snapshot of [Stuxedo/maintenancepage](https://github.com/Stuxedo/maintenancepage), frozen at its `f094e68` commit (`v1.2.2`): the last state of the page before Stuxedo moved from its original green brand to the tuxedo-cat logo (neon `#4bf708` on dark, deep `#032f14` on light). This repository exists so this design stays available and independently versioned as `v1`, separate from the live template's ongoing development.
 
-This repository contains a lightweight HTML page designed to inform users of ongoing maintenance on a Stuxedo service. It's perfect for keeping users informed while work is being carried out.
-
-## Features
-
-- 📄 Simple, clean HTML structure
-- ⚡ Lightweight and fast-loading
-- 🎨 Ready to customize
-- 📱 Responsive design
-- 🚀 Deployed at [maintenancepage.stuxedo.net](https://maintenancepage.stuxedo.net)
+Live at [maintenancepage-v1.stuxedo.net](https://maintenancepage-v1.stuxedo.net/). Its logo, icon and favicon are pinned to the archived assets under `https://global.media.stuxedo.com/v1/`.
 
 ## Getting Started
 
 1. Clone the repository:
+
    ```bash
-   git clone https://github.com/Stuxedo/maintenancepage.git
+   git clone https://github.com/Stuxedo/maintenancepage-v1.git
    ```
 
-2. Open `index.html` in your browser or deploy to your hosting provider
+2. Run it locally:
 
-## Customization
+   ```bash
+   ./dev-server.sh        # or dev-server.bat on Windows
+   ```
 
-Edit the HTML files to:
-- Update the maintenance message
-- Add your branding and logo
-- Customize colors and styling
-- Include contact or status links
+   Then open the printed URL. You can also open `index.html` directly in your browser.
 
-## Deployment
+## Scope
 
-This project uses GitHub Pages and can be automatically deployed to your desired domain.
+This repository is an archive, not the actively developed template. Contributions are limited to fixes that keep this exact design working (broken links, encoding issues, browser compatibility). For new features or a redesign, see the live [maintenancepage](https://github.com/Stuxedo/maintenancepage) repository instead.
 
-The live version is deployed at [maintenancepage.stuxedo.net](https://maintenancepage.stuxedo.net).
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for how to get involved, and [CHANGELOG.md](CHANGELOG.md) for release history.
 
 ## License
 
-This project is open source and available for use and modification.
+Copyright (c) 2026 Stux.Group. This project is open source and available for use and modification.
 
 ---
 
-*Built & Maintained by <img src="https://github.com/Stuxedo.png" height="14" alt="Stuxedo" valign="middle"> [Stuxedo](https://github.com/Stuxedo).
-Stuxedo is operated by <img src="https://global.media.stux.cloud/icon.png" height="14" alt="Stux.Cloud" valign="middle"> Stux.Cloud, which is operated by Stux Group Ltd, a company registered in England and Wales (company no. 13160574), registered office 82a James Carter Road, Mildenhall, England, IP28 7DE.*
-
-## Local preview
-
-Run `./dev-server.sh` (or `dev-server.bat`, add a port as the last argument) to serve the site at `http://127.0.0.1:8000` the way GitHub Pages does, with the dev-mode banner on. Add `--no-dev-mode` to see it exactly as production does, or `?banner=soon,maintenance,site` to preview the other banner types. It uses PHP 7.4's built-in server (set `PHP_BIN` to pick another PHP).
+*Stuxedo is part of the <img src="https://global.media.stux.group/icon.png" height="14" alt="Stux.Group" valign="middle"> Stux.Group Brand of Companies.*
