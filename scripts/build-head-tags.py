@@ -13,7 +13,7 @@ Between the BEGIN/END markers in each page's <head> it writes:
   3,000-byte limit). Error pages (404.html) get the icon tags only.
 Spec: https://docs.discord.com/developers/link-previews/component-embeds
 
-Copyright (c) Stux.Group. All Rights Reserved.
+Copyright (c) Stuxedo. All Rights Reserved.
 """
 import html
 import json
